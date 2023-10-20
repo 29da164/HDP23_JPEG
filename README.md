@@ -37,11 +37,11 @@ huffmanDecoder.exe
 ```
 huffmanDecoder
 ```
-```
-231019_JPEG復元.xlsmの起動
-```
-ワークシートにあるインストラクションに従う
-> 注意
+
+# JPEG可視化
+231019_JPEG復元.xlsmを起動し，ワークシートにあるインストラクションに従う．
+
+# 注意
 
 huffmanTest_r7.cppにバグがあります．8x8_H.jpgをhuffmanTest_r7.exeで読みに行くと，無限ループに入ります．
 Ctrl+Cで強制終了して，image.txtの上部64行だけ使ってください．
