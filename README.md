@@ -1,15 +1,41 @@
-> 使い方
+# JPEGアナライザ
+## コンパイル
+### Windows
 ```
-g++ -o jpegRead_12.exe jpegRead_12.cpp
+g++ -o jpegRead.exe jpegRead.cpp
 ```
+### Linux
 ```
-g++ -o huffmanTest_r7.exe huffmanTest_r7.cpp
+g++ -o jpegRead jpegRead.cpp
 ```
+## 実行
+### Windows
 ```
-jpegRead_12.exe <読みたいjpegファイル>
+jpegRead.exe <読みたいjpegファイル>
 ```
+### Linux
 ```
-huffmanTest_r7.exe
+jpegRead <読みたいjpegファイル>
+```
+
+# JPEGデコーダ
+## コンパイル
+### Windows
+```
+g++ -o huffmanDecoder.exe huffmanDecoder.cpp
+```
+### Linux
+```
+g++ -o huffmanDecoder huffmanDecoder.cpp
+```
+## 実行
+### Windows
+```
+huffmanDecoder.exe
+```
+### Windows
+```
+huffmanDecoder
 ```
 ```
 231019_JPEG復元.xlsmの起動
