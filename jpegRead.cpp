@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "jpegRead_7.h" // printb and CONSTANTS
+#include "jpegRead.h" // printb and CONSTANTS
 
 struct huffman{
 
